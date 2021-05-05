@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Intuit Accounts - Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="nav-text">
+            <p>Already have an Intuit account?</p>
+            <a href="#">
+                <p>I forgot my User ID or Password</p>
+            </a>
+        </div><!-- end nav-text -->
+        <div class="nav-link">
+            <button>
+                <!-- lock -->
+                <div class="lock">
+                <!-- key hole -->
+                <div class="key-hole"></div>
+            </button>
+        </div>
+    </header>
+    <main>
+        <img src="assets/icon-bar.png" alt="">
+        <section class="account-form">
+            <h1>Create an Intuit account</h1>
+            <p>One account for everything in Intuit, including Mint.</p>
+            <a href="#">Learn more</a>
+            <form action="POST">
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email">
+                <label for="phone">Phone (recommended)</label>
+                <input type="text" name="phone" id="phone">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <input type="submit" value="Create Account">
+            </form>
+            <div class="form-footer">
+                <p>By clicking Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement.</a></p>
+                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
+            </div><!-- end form-footer -->
+        </section><!-- account-form -->
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+        </div><!-- end foot-links -->
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, Quickbooks, QB, Turbo Tax, ProConnect, and Mint are registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
+</body>
+</html>
