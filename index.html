@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Intuit Accounts - Sign Up</title>
@@ -19,32 +21,40 @@
         <div class="nav-link">
             <button>
                 <!-- lock -->
-                <div class="lock">
+                <div class="lock"></div>
                 <!-- key hole -->
                 <div class="key-hole"></div>
+                <div class="btn-text">Sign In</div>
             </button>
         </div>
     </header>
     <main>
-        <img src="assets/icon-bar.png" alt="">
-        <section class="account-form">
+        <img src="assets/intuit.png" id="intuit" alt="Intuit Logo">
+        <img src="assets/icon-bar.png" id="icon-bar" alt="Logo Bar">
+        <section>
             <h1>Create an Intuit account</h1>
             <p>One account for everything in Intuit, including Mint.</p>
             <a href="#">Learn more</a>
-            <form action="POST">
+            <form id="act-form" action="POST">
                 <label for="email">Email address</label>
                 <input type="email" name="email" id="email">
-                <label for="phone">Phone (recommended)</label>
+                <label for="phone">Phone <span>(recommended)</span></label>
                 <input type="text" name="phone" id="phone">
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password">
-                <input type="submit" value="Create Account">
+                <button type="submit" form="act-form" value="Create Account">
+                    <!-- lock -->
+                    <div class="form-lock"></div>
+                    <!-- key hole -->
+                    <div class="form-key-hole"></div>
+                    <div class="form-btn-text">Create Account</div>
+                </button>
             </form>
             <div class="form-footer">
                 <p>By clicking Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement.</a></p>
                 <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
             </div><!-- end form-footer -->
-        </section><!-- account-form -->
+        </section>
     </main>
     <footer>
         <div class="footer-links">
