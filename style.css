@@ -126,7 +126,7 @@ main img {
 }
 
 section {
-    width: 35%;
+    width: 315px;
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -218,7 +218,7 @@ form button {
 /* key hole */
 .form-key-hole {
     position: absolute;
-    top: 17px;
+    top: 19px;
     left: 98px;
     width: 4px;
     height: 4px;
@@ -245,6 +245,38 @@ form button {
     font-size: 16px;
 }
 
+.form-footer p:first-of-type, .form-footer a {
+    font-style: italic;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.form-footer p:last-of-type, .form-footer p:last-of-type a {
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+.form-footer a {
+    font-weight: 600;
+}
+
 footer {
     grid-area: footer;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    color: #505050;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+footer p {
+    display: block;
+    color: #505050;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
